@@ -1,1 +1,1 @@
-# Flower_project
+# Image Recognition Project 

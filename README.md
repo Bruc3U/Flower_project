@@ -48,12 +48,37 @@ Machine learning performs better on larger datasets with a lot of examples to �
 
 
 # II/Data Wrangling: 
+Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification (Picture 3). A CSV file was also created to have a proper path to the data (required by Google Cloud) (Picture 4). 
+After gathering and cleaning the data, we finally fed it to the Google Machine Learning API. 
+
 
 # III/ Analysis:
+
+We can observe that the overall accuracy for Google Cloud was 75% whereas the PictureThis app is 100%. 
+Google Cloud’s predictions were given with the number of percentages predictions for each species, when the software had more than 50% accuracy in one column it would count as a correct prediction. (See Pictures 1 and 2).
+The app did not have any trouble differentiating the 3 species despite changes in quality. The result was fast and accurate.
+Whereas the Google Cloud model suffered from a lack of accuracy on certain models. It could be explained by the similarity of the two species. Indeed, the Japanese maple and the red maple are really similar in terms of leaf shape. 
+
+| Plant type | Accuracy | Total population |
+|---|---|---|---|
+| Acer Palmatum | 100% | 55% |
+| Japanese Maple | 66% | 30% |
+| Japanese Red Maple | 33% | 15% | 
+
+| Plant type | % of hands | % of low-quality pictures (Iphone) |
+|---|---|---|---|
+| Acer Palmatum | 9% | 36% |
+| Japanese Maple | 50% | 33% |
+| Japanese Red Maple | 33% | 0% | 
+
+As we can also observe, the overall picture quality did not influence the model’s outcome nor did the hands present in the backgrounds. Half of the Japanese Maple folder was with Hands and more than 1/3 were lower quality, still, it outperformed the Japanese Red Maple. 
 
 
 # Conclusion
 
+Despite its lack of overall accuracy, Google Cloud’s platform seems to be a reliable form of prediction. Limitations were accepted due to the lack of raw data but for a 10-hour project, the results were more than acceptable. 
+The app PictureThis is a fantastic tool and incredibly precise but for a small business, it’s a heavy price to pay.
+Google's platform offers affordability and reliability for a cheap price, more importantly, it widens access to high-tech processes for an unspecialized workforce. This project was conducted without major coding or major AI knowledge. The only challenging part was to find proper raw data and clean it according to Google Cloud’s rules. 
 
 
 

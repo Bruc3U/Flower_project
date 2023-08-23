@@ -38,7 +38,7 @@ Machine learning performs better on larger datasets with a lot of examples to �
  The test data set is composed of 20 randomly selected pictures from a 100-picture pool. Those pictures will appear in 12 and 21 Mega Pixel, some will have hands or shadows to try to ‘trick’ the prediction software. 
  
 
-| Species | Population (out of 20) | Low Quality | Hands | 
+| Species | Population (out of 20) | [Low Quality](https://github.com/Bruc3U/Flower_project/blob/main/test%20(7).JPG) | [Hands](https://github.com/Bruc3U/Flower_project/blob/main/test%20(5).jpg) | 
 |---|---|---|---|
 | Acer Palmatum | 11 | 4 | 1 |
 | Japanese Maple | 6 | 2 | 3 |

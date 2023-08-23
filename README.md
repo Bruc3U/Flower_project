@@ -23,7 +23,7 @@ Being able to create a more cost-effective version of the technology could be us
 
 ## About the dataset
 
-Our project will feature 3 different species of maple trees: Acer palmatum (regular maple tree), Japanese maple, and the Japanese red maple.<br> 
+Our project will feature 3 different species of maple trees: [Acer palmatum](https://github.com/Bruc3U/Flower_project/blob/main/acer_palmatum%20(44).JPG) (regular maple tree), [Japanese maple](https://github.com/Bruc3U/Flower_project/blob/main/japanese_maple%20(11).JPG), and the [Japanese red maple](https://github.com/Bruc3U/Flower_project/blob/main/japanese_red_maple%20(17).JPG).<br> 
 Most of the pictures were taken at the Dallas Botanical Garden.<br>
 
 Our training dataset is composed of 300 pictures (100 pictures per plant species), 80% of those pictures will be ‘live’ pictures, and the remaining 20% will be online pictures.<br> 

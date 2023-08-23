@@ -46,7 +46,10 @@ Machine learning performs better on larger datasets with a lot of examples to �
 
 # I/Data Wrangling: 
 
-Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification.<br>
+Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification.<br
+
+![image](https://github.com/Bruc3U/Flower_project/assets/142362478/6948153d-bb98-4d37-a49c-039824cafd8e)
+
 A CSV file was also created to have a proper path to the data (required by Google Cloud). 
 
 After gathering and cleaning the data, we finally fed it to the Google Machine Learning API. 
@@ -57,7 +60,8 @@ We can observe that the overall accuracy for Google Cloud was 75% whereas the Pi
 Google Cloud’s predictions were given with the number of percentages predictions for each species, when the software had more than 50% accuracy in one column it would count as a correct prediction.
 
 The app did not have any trouble differentiating the 3 species despite changes in quality. The result was fast and accurate.<br>
-Whereas the Google Cloud model suffered from a lack of accuracy on certain models. It could be explained by the similarity of the two species. Indeed, the Japanese maple and the red maple are really similar in terms of leaf shape. 
+Whereas the Google Cloud model suffered from a lack of accuracy on certain models.<br>
+It could be explained by the similarity of the two species. Indeed, the Japanese maple and the red maple are really similar in terms of leaf shape. 
 
 | Plant type | Accuracy | Total population |
 |---|---|---|
@@ -71,14 +75,18 @@ Whereas the Google Cloud model suffered from a lack of accuracy on certain model
 | Japanese Maple | 50% | 33% |
 | Japanese Red Maple | 33% | 0% | 
 
-As we can also observe, the overall picture quality did not influence the model’s outcome nor did the hands present in the backgrounds. Half of the Japanese Maple folder was with Hands and more than 1/3 were lower quality, still, it outperformed the Japanese Red Maple. 
+As we can also observe, the overall picture quality did not influence the model’s outcome nor did the hands present in the backgrounds.<br>
+Half of the Japanese Maple folder was with Hands and more than 1/3 were lower quality, still, it outperformed the Japanese Red Maple. 
 
 
 # Conclusion
 
-Despite its lack of overall accuracy, Google Cloud’s platform seems to be a reliable form of prediction. Limitations were accepted due to the lack of raw data but for a 10-hour project, the results were more than acceptable. 
-The app PictureThis is a fantastic tool and incredibly precise but for a small business, it’s a heavy price to pay.
-Google's platform offers affordability and reliability for a cheap price, more importantly, it widens access to high-tech processes for an unspecialized workforce. This project was conducted without major coding or major AI knowledge. The only challenging part was to find proper raw data and clean it according to Google Cloud’s rules. 
+Despite its lack of overall accuracy, Google Cloud’s platform seems to be a reliable form of prediction.<br>
+Limitations were accepted due to the lack of raw data but for a 10-hour project, the results were more than acceptable.
+
+The app PictureThis is a fantastic tool and incredibly precise but for a small business, it’s a heavy price to pay.<br>
+Google's platform offers affordability and reliability for a cheap price, more importantly, it widens access to high-tech processes for an unspecialized workforce.<br>
+This project was conducted without major coding or major AI knowledge. The only challenging part was to find proper raw data and clean it according to Google Cloud’s rules. 
 
 
 

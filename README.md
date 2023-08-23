@@ -5,7 +5,7 @@
 # Tool Used
 - Google Cloud (ML, Bigquery)
 - Excel
-- Python (matplotlib, pandas)
+- Python (seaborn, pandas)
 
 
 ## Objective

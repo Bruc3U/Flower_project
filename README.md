@@ -45,25 +45,28 @@ Machine learning performs better on larger datasets with a lot of examples to �
 | Japanese Red Maple | 3 | 0 | 1 | 
 
 # I/Data Wrangling: 
-Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification (Picture 3). A CSV file was also created to have a proper path to the data (required by Google Cloud) (Picture 4). 
-After gathering and cleaning the data, we finally fed it to the Google Machine Learning API. 
 
+Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification.<br>
+A CSV file was also created to have a proper path to the data (required by Google Cloud). 
+
+After gathering and cleaning the data, we finally fed it to the Google Machine Learning API. 
 
 # II/ Analysis:
 
-We can observe that the overall accuracy for Google Cloud was 75% whereas the PictureThis app is 100%. 
-Google Cloud’s predictions were given with the number of percentages predictions for each species, when the software had more than 50% accuracy in one column it would count as a correct prediction. (See Pictures 1 and 2).
-The app did not have any trouble differentiating the 3 species despite changes in quality. The result was fast and accurate.
+We can observe that the overall accuracy for Google Cloud was 75% whereas the PictureThis app is 100%.<br> 
+Google Cloud’s predictions were given with the number of percentages predictions for each species, when the software had more than 50% accuracy in one column it would count as a correct prediction.
+
+The app did not have any trouble differentiating the 3 species despite changes in quality. The result was fast and accurate.<br>
 Whereas the Google Cloud model suffered from a lack of accuracy on certain models. It could be explained by the similarity of the two species. Indeed, the Japanese maple and the red maple are really similar in terms of leaf shape. 
 
 | Plant type | Accuracy | Total population |
-|---|---|---|---|
+|---|---|---|
 | Acer Palmatum | 100% | 55% |
 | Japanese Maple | 66% | 30% |
 | Japanese Red Maple | 33% | 15% | 
 
 | Plant type | % of hands | % of low-quality pictures (Iphone) |
-|---|---|---|---|
+|---|---|---|
 | Acer Palmatum | 9% | 36% |
 | Japanese Maple | 50% | 33% |
 | Japanese Red Maple | 33% | 0% | 

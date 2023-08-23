@@ -44,15 +44,12 @@ Machine learning performs better on larger datasets with a lot of examples to �
 | Japanese Maple | 6 | 2 | 3 |
 | Japanese Red Maple | 3 | 0 | 1 | 
 
-# I/Defining the goal:
-
-
-# II/Data Wrangling: 
+# I/Data Wrangling: 
 Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification (Picture 3). A CSV file was also created to have a proper path to the data (required by Google Cloud) (Picture 4). 
 After gathering and cleaning the data, we finally fed it to the Google Machine Learning API. 
 
 
-# III/ Analysis:
+# II/ Analysis:
 
 We can observe that the overall accuracy for Google Cloud was 75% whereas the PictureThis app is 100%. 
 Google Cloud’s predictions were given with the number of percentages predictions for each species, when the software had more than 50% accuracy in one column it would count as a correct prediction. (See Pictures 1 and 2).

@@ -54,7 +54,7 @@ Machine learning performs better on larger datasets with a lot of examples to �
 
 # I/Data Wrangling: 
 
-Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification.<br
+Once the pictures were taken the only ‘cleaning’ step was to convert most of the files into a similar extension such as JPG and rename the files to have a better classification.
 
 ![image](https://github.com/Bruc3U/Flower_project/assets/142362478/6948153d-bb98-4d37-a49c-039824cafd8e)
 
